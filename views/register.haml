@@ -1,0 +1,52 @@
+%br
+%br
+
+%div{:class => 'border-title'}
+  %h2
+    Register
+    %span
+    
+%div{:class => 'column one-half', :style => 'text-align: center;'}
+  %h2{:href => '#register', :class => 'button xlarge pink'}
+    Talent
+  %br
+  %br
+    %a{:href => '/auth/linkedin'}
+      %img{:src => 'http://www.pointclickproductions.com/blog/wp-content/uploads/2011/06/linkedin_button.gif'}
+    
+    
+%div{:class => 'column one-half last'}
+  %div{:style => 'text-align: center;'}
+    %h2{:href => '#register', :class => 'button xlarge pink', :style => 'text-align: center;'}
+      Employers
+  %p
+    %form{:action => '/register/employer', :method => 'post'}
+      %br
+      %p
+        %label
+          Name
+        %input{:type => 'text', :name => 'contact_name', :required => true}
+      %br
+      %p
+        %label
+          Email
+        %input{:type => 'text', :name => 'contact_email', :required => true}
+      %br
+      %p
+        %label
+          Phone #
+        %input{:type => 'text', :name => 'contact_phone', :required => true}
+      %br
+      %p
+        %label
+          Company Name
+        %input{:type => 'text', :name => 'company_name', :required => true}
+      %br
+      %p
+        %label
+          Company Location
+        %input{:type => 'text', :name => 'company_location', :required => true}
+      %br
+      %p
+        %input{:type => 'submit', :value => 'Register', :class => 'button pink'}
+        

@@ -1,0 +1,574 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----*****---- << Responsive >> ----*****----*/
+
+	/*----*****---- << Desktop >> ----*****----*/	
+	
+    /* Note: Design for a width of 768px, Gutter: 30px, Unit: 32px */
+
+    @media only screen and (min-width:960px) and (max-width:1120px) {
+		
+		.container { width:900px; }
+		.boxed .wrapper { width:940px; }
+		
+		/*----*****---- << Header >> ----*****----*/		
+		#main-menu ul li a { padding:0px 14px; }
+		#main-menu > ul > li:hover > a, #main-menu > ul > li.current_page_item > a { padding:40px 14px; }
+		
+		/*----*****---- << Main >> ----*****----*/		
+		#primary { width:600px; }
+		#primary.content-full-width { width:100%; }
+		
+		#secondary { width:280px; }
+		
+		/*----*****---- << Home >> ----*****----*/		
+		.ico-content.type2 { width:83%; }
+		.ico-content.type3 { width:67%; }	
+		
+		/*----*****---- << Portfolio >> ----*****----*/
+		.portfolio-carousel-wrapper .portfolio.three-column { width:288px; }
+		.portfolio-carousel-wrapper .portfolio.three-column .portfolio-thumb, .portfolio-carousel-wrapper .portfolio.three-column .portfolio-thumb img { height:195px; }
+		
+		.portfolio-carousel-wrapper .portfolio.three-column:hover a.zoom { left:27%; }
+		.portfolio-carousel-wrapper .portfolio.three-column:hover .image-overlay a.link { right:27%; }
+		
+		.portfolio.one-column .portfolio-detail, .portfolio.one-column-with-sidebar .portfolio-detail { width:40%; }
+		
+		/*----*****---- << Products >> ----*****----*/
+		.product-carousel-wrapper ul.products li .product-thumb { height:187px; }		
+		.product-carousel-wrapper ul.products li { width:290px; }
+		
+		.product-carousel-wrapper ul.products.type2 li .details { width:40%; }
+		.product-carousel-wrapper ul.products li .price { font-size:14px; margin-left:10px; }
+		.product-carousel-wrapper ul.products li .details a { padding:10px; }
+		
+		ul.products li { width:290px; }
+		ul.products li .product-thumb { height:195px; }
+		ul.products.type2 li .details { width:100%; }
+		
+		.product .images .thumbnails a { width:134px; height:87px; }
+		.product .images .thumbnails .product-arrows a { top:25%; }
+		
+		/*----*****---- << Blog >> ----*****----*/
+		.one-half .blog-entry .entry-thumb-meta, .one-column.blog-thumb .blog-entry .entry-thumb-meta { width:230px; }
+		.one-half .entry-details { width:190px; }
+		
+		.one-third.with-sidebar .blog-entry .entry-thumb-meta .entry-meta { padding:0px 5px; }
+		.one-column.blog-thumb .entry-details { width:72%; }
+		.one-column.with-sidebar.blog-thumb .entry-details { width:58%; }
+		
+		/*----*****---- << Team >> ----*****----*/
+		.team .image { height:194px; }
+		
+		/*----*****---- << Testimonials >> ----*****----*/
+		.testimonial blockquote { width:52%; }
+		
+		/*----*****---- << Shortcodes >> ----*****----*/
+		ul.tabs-vertical-frame { width:30%; }	
+		
+		.ls-layer .button-text2 a { font-size:18px; }
+		
+		input[type=text], input[type=email], input[type=password], input.text, textarea { width:96.4%; }
+		
+		/*----*****---- << Contact >> ----*****----*/
+		#contact-form input[type="text"], #contact-form input[type="email"] { width:93%; }	
+		#contact-form textarea { width:96.4%; }
+		
+		/*----*****---- << Secondary >> ----*****----*/
+		#secondary .widget #searchform input[type="text"] { width:196px; }
+		#secondary .widget #searchform input[type="submit"] { padding:13px; }
+		.price-range label, .price-range input[type="text"] { font-size:14px; }
+		.price-range .button.small { padding:10px 15px; }
+		
+	}
+
+	/*----*****---- << Tablet (Portrait) >> ----*****----*/	
+	
+    /* Note: Design for a width of 768px, Gutter: 30px, Unit: 32px */
+
+    @media only screen and (min-width:768px) and (max-width:959px) {
+		
+		.container { width:710px; }
+		.boxed .wrapper { width:750px; }
+		
+		/*----*****---- << Header >> ----*****----*/		
+		#logo { width:27%; }
+		#logo h2 a { font-size:20px; }
+		
+		#main-menu ul li a { padding:0px 8px; font-size:12px; }
+		#main-menu > ul > li:hover > a, #main-menu > ul > li.current_page_item > a { padding:40px 8px; }
+		#main-menu ul li ul { width:150px; }
+		#main-menu ul ul ul { left:150px; }
+		
+		/*----*****---- << Main >> ----*****----*/		
+		#primary { width:500px; }
+		#primary.content-full-width { width:100%; }
+		
+		#secondary { width:190px; }
+		
+		/*----*****---- << Home >> ----*****----*/	
+		.intro-text.type1 h4 { font-size:15px; }
+		.intro-text.type1 h6 { font-size:13px; }
+			
+		.ico-content.type2 { width:77.5%; }
+		.ico-content.type3 { width:58%; }	
+		
+		.intro-text.type2 a, .intro-text.type4 a, .intro-text.type3 a { padding:11px 12px; font-size:12px; }	
+		
+		/*----*****---- << Breadcrumb >> ----*****----*/	
+		.breadcrumb span { margin-top:3px; }
+		.breadcrumb a { line-height:22px; }
+		.breadcrumb h1 { font-size:18px; }
+		
+		.main-phone-no p { font-size:18px; }
+		.main-phone-no p a { font-size:14px; }
+		
+		/*----*****---- << Portfolio >> ----*****----*/
+		.portfolio-carousel-wrapper .portfolio.three-column { width:224px; }
+		.portfolio-carousel-wrapper .portfolio.three-column .portfolio-thumb, .portfolio-carousel-wrapper .portfolio.three-column .portfolio-thumb img { height:152px; }
+		
+		.portfolio-carousel-wrapper .portfolio.three-column .image-overlay a { top:30%; }
+		.portfolio-carousel-wrapper .portfolio.three-column:hover a.zoom { left:20%; }
+		.portfolio-carousel-wrapper .portfolio.three-column:hover .image-overlay a.link { right:20%; }
+		
+		.portfolio.one-column-with-sidebar .portfolio-detail { width:28%; }
+		.portfolio.one-column .portfolio-detail { width:23%; }
+		
+		.portfolio.four-column-with-sidebar { margin:2px; }
+		
+		/*----*****---- << Products >> ----*****----*/
+		.product-carousel-wrapper ul.products li .product-thumb { height:146px; }		
+		.product-carousel-wrapper ul.products li { width:226px; }
+		
+		ul.products.type2 li .details { width:100%; }
+		
+		.product-carousel-wrapper ul.products li .price { font-size:14px; margin-left:10px; }
+		.product-carousel-wrapper ul.products li .details a { padding:10px; }
+		
+		ul.products.type2 li .price { font-size:18px; }
+		ul.products.type2 li .details a { padding:11px 20px; }
+		
+		.product .images .thumbnails a { width:109px; height:71px; margin-right:10px; }
+		.product .images .thumbnails .product-arrows a { top:17%; }
+				
+		ul.products li .product-thumb:hover .product-overlay a { top:28%; }
+		
+		ul.products.type2 li .product-thumb { width:230px; height:155px; }
+		
+		/*----*****---- << Blog >> ----*****----*/
+		.one-half .blog-entry .entry-thumb-meta { width:98%; margin-right:0px; margin-bottom:10px; }
+		.one-half .entry-details { width:100%; }
+		.one-column.blog-thumb .blog-entry .entry-thumb-meta { width:48%; }
+		.one-column.blog-thumb .entry-details { width:49%; }
+		
+		.one-third.with-sidebar .blog-entry .entry-thumb-meta .entry-meta { padding:0px 5px; }
+		.one-column.with-sidebar.blog-thumb .entry-details { width:48%; }
+		
+		.blog-entry .entry-thumb-meta .entry-meta { font-size:11px; }
+		
+		#respond input[type="text"], #respond input[type="email"] { width:87.2%; }
+		#respond textarea { width:93.5%; }
+		
+		/*----*****---- << Team >> ----*****----*/
+		.team .image { height:153px; }
+		
+		/*----*****---- << Partner Carousel >> ----*****----*/
+		.partner-carousel li { height:52px; }
+		#primary .partner-carousel li img { max-width:90%; }
+		
+		/*----*****---- << Testimonials >> ----*****----*/
+		.testimonial blockquote { width:40%; }
+		
+		/*----*****---- << Shortcodes >> ----*****----*/
+		ul.tabs-vertical-frame { width:29%; }	
+		ul.tabs-vertical-frame li a { font-size:12px; padding:14px; }
+		.tabs-vertical-frame-content { padding-top:10px; padding-bottom:10px; }
+		
+		input[type=text], input[type=email], input[type=password], input.text, textarea { width:95.6%; }
+		
+		ul.tabs-frame li a { padding:0px 12px; }
+		
+		.tb-header .price { font-size:35px; }
+		
+		.ls-layer .button-text2 a { font-size:14px; padding:0px 21px; line-height:38px; }
+		.ls-layer .button-text a { font-size:12px; padding:0px 15px; line-height:30px; }
+		
+		/*----*****---- << Side Navigation >> ----*****----*/
+		.side-nav-container ul li a { font-size:12px; }
+		
+		/*----*****---- << Contact >> ----*****----*/
+		#contact-form input[type="text"], #contact-form input[type="email"] { width:91%; }	
+		#contact-form textarea { width:95.4%; }
+		
+		.two-third #contact-form input[type="text"], .two-third #contact-form input[type="email"] { width:86%; }
+		.two-third #contact-form textarea { width:93.4%; }
+		
+		/*----*****---- << Secondary >> ----*****----*/
+		#secondary .widget #searchform input[type="text"] { width:106px; }
+		#secondary .widget #searchform input[type="submit"] { padding:13px; }
+		.price-range label, .price-range input[type="text"] { font-size:14px; }
+		.price-range .button.small { padding:10px 15px; }
+		
+		/*----*****---- << Footer >> ----*****----*/
+		#footer .widget ul li { width:91%; }
+		#footer .widget .tweet_list li { width:85%; }
+		
+	}
+	
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		.mobile-menu { display:block; }
+		#main-menu ul { display:none; }
+		
+		.container { width:420px; }
+		.boxed .wrapper { width:460px; }
+		
+		/*----*****---- << Header >> ----*****----*/		
+		#top-bar .social-icons { float:left; width:100%; text-align:center; }
+		#top-bar .phone-no { width:100%; text-align:center; margin-bottom:10px; background-position:17% center; }
+		
+		#logo { width:100%; text-align:center; margin-top:20px; margin-bottom:10px; }
+		#logo img { max-width:100%; }
+		
+		#main-menu { float:left; width:100%; margin-bottom:5px; }
+		
+		/*----*****---- << Columns >> ----*****----*/
+		.column { margin-right:0px; }	
+		.one-fourth, .one-half, .three-fourth, .one-third, .two-third, .one-fifth, .four-fifth, .three-fifth, .two-fifth, .one-sixth, .two-sixth, .three-sixth, .four-sixth, .five-sixth { width:100%; margin-bottom:20px; }		
+		
+		.pricing-table.no-space .one-fourth, .pricing-table.no-space .one-half, .pricing-table.no-space .three-fourth, .pricing-table.no-space .one-third, .pricing-table.no-space .two-third, .pricing-table.no-space .one-fifth, .pricing-table.no-space .four-fifth, .pricing-table.no-space .three-fifth, .pricing-table.no-space .two-fifth, .pricing-table.no-space .one-sixth, .pricing-table.no-space .two-sixth, .pricing-table.no-space .three-sixth, .pricing-table.no-space .four-sixth, .pricing-table.no-space .five-sixth { width:98%; }
+		
+		/*----*****---- << Main >> ----*****----*/		
+		#primary { width:100%; }
+		#primary.content-full-width { width:100%; }
+		
+		#secondary { width:100%; margin-left:0px; margin-right:0px; }
+		
+		/*----*****---- << Home >> ----*****----*/
+		.intro-text.type2, .intro-text.type3, .intro-text.type4 { text-align:center; padding-top:20px; padding-bottom:20px; }
+		.intro-text.type2 .column, .intro-text.type3 .column, .intro-text.type4 .column { margin-bottom:0px; }	
+		.intro-text.type2 h4, .intro-text.type3 h4, .intro-text.type4 h4 { font-size:16px; }	
+		.intro-text.type2 a, .intro-text.type4 a, .intro-text.type3 a { float:none; }
+		
+		.intro-text.type1 h4 { line-height:34px; }
+		.intro-text.type1 h6 { background-image:url(images/introtext-border-top.png); }
+		.intro-text.type1 h6 { font-size:13px; }
+		
+		/*----*****---- << Breadcrumb >> ----*****----*/
+		.breadcrumb-section { padding:15px 0px 5px; }	
+		.breadcrumb { width:60%; padding:0px; }
+		.breadcrumb span { margin-top:3px; }
+		.breadcrumb a { line-height:22px; }
+		.breadcrumb h1 { font-size:18px; }
+		
+		.main-phone-no p { font-size:18px; }
+		.main-phone-no p a { font-size:14px; }
+		
+		/*----*****---- << Side Navigation >> ----*****----*/
+		.side-nav-container	{ margin-bottom:20px; }		
+		
+		/*----*****---- << Testimonials >> ----*****----*/
+		.testimonial .author, .testimonial .author img { width:95px; height:95px; }
+		.testimonial blockquote { padding-left:85px; width:58.5%; }
+		.testimonial blockquote:before { left:60px; top:15px; }
+		
+		/*----*****---- << Team >> ----*****----*/
+		.team .image { margin-top:15px; }
+		
+		/*----*****---- << Partner Carousel >> ----*****----*/
+		.partner-carousel-wrapper { margin-top:10px; }
+		.partner-carousel-wrapper .carousel-arrows { top:-48px; }
+		#primary .partner-carousel li img { max-width:90%; }
+		
+		/*----*****---- << Portfolio >> ----*****----*/
+		.carousel-arrows { top:-40px; }
+		
+		.portfolio-carousel-wrapper .portfolio.three-column { width:198px; }
+		.portfolio-carousel-wrapper .portfolio.three-column .portfolio-thumb, .portfolio-carousel-wrapper .portfolio.three-column .portfolio-thumb img { height:133px; }
+		
+		.portfolio-carousel-wrapper .portfolio.three-column .image-overlay a { top:25%; }
+		.portfolio-carousel-wrapper .portfolio.three-column:hover a.zoom { left:15%; }
+		.portfolio-carousel-wrapper .portfolio.three-column:hover .image-overlay a.link { right:15%; }
+		
+		.portfolio.two-column { width:415px; margin:5px; }
+		.portfolio.two-column .portfolio-thumb, .portfolio.two-column .portfolio-thumb img { width:100%; height:279px; }
+		
+		.portfolio.two-column .image-overlay a, .portfolio.one-column .image-overlay a { top:37%; }
+		.portfolio.two-column:hover a.zoom, .portfolio.one-column:hover a.zoom { left:33%; }
+		.portfolio.two-column:hover .image-overlay a.link, .portfolio.one-column:hover .image-overlay a.link { right:33%; }
+		
+		.portfolio.one-column .portfolio-thumb, .portfolio.one-column-with-sidebar .portfolio-thumb img { width:100%; height:283px; }
+		.portfolio.one-column-with-sidebar .portfolio-thumb, .portfolio.one-column-with-sidebar .portfolio-thumb img { width:100%; height:283px; }
+		
+		.portfolio.one-column .portfolio-thumb, .portfolio.one-column-with-sidebar .portfolio-thumb { margin-right:0px; margin-bottom:10px; }
+		
+		.portfolio.one-column-with-sidebar:hover a.zoom { left:34%; }
+		.portfolio.one-column-with-sidebar:hover a.link { right:34%; }
+		
+		.portfolio.one-column .portfolio-detail, .portfolio.one-column-with-sidebar .portfolio-detail { width:100%; }	
+		
+		/*----*****---- << Products >> ----*****----*/
+		.product-carousel-wrapper ul.products li h4 { font-size:16px; }
+		.product-carousel-wrapper ul.products li .price { font-size:13px; margin-left:10px; }
+		.product-carousel-wrapper ul.products li .details a { font-size:11px; padding:11px 8px; }
+		
+		.product-carousel-wrapper { margin-top:10px; }
+		.product-carousel-wrapper .carousel-arrows { top:-48px; }
+		.product-carousel-wrapper ul.products li .product-thumb { height:129px; }
+		
+		ul.products li { width:100%; }
+		
+		ul.products.type2 li .product-thumb { width:100%; margin-right:0px; }
+		ul.products.type2 li .details { width:100%; }
+		
+		.product .images { width:100%; margin-right:0px; }
+		.product .images .thumbnails a { height:auto; margin-right:10px; width:133px; }
+		.product .images .thumbnails .product-arrows a { top:25%; }	
+		
+		.summary { width:100%; margin:20px 0px 0px; }	
+		
+		/*----*****---- << Blog >> ----*****----*/
+		.one-third .blog-entry .entry-thumb-meta, .one-half.with-sidebar .blog-entry .entry-thumb-meta { width:81%; }
+		.one-column.blog-fullwidth .blog-entry .entry-thumb-meta, .blog-single-entry .blog-entry .entry-thumb-meta { width:100%; }
+		
+		.one-half .blog-entry .entry-thumb-meta { width:240px; }
+		.one-half .entry-details { width:38%; }
+		
+		.one-column.blog-thumb .entry-details, .one-column.with-sidebar.blog-thumb .entry-details { width:42%; }
+		.one-column.blog-thumb .blog-entry .entry-thumb-meta { width:220px; }
+		
+		#respond input[type="text"], #respond input[type="email"], #respond textarea { width:92.6%; }
+		#respond .column { margin-bottom:0px; }
+		
+		/*----*****---- << Shortcodes >> ----*****----*/
+		ul.tabs-vertical-frame { width:30%; }
+		
+		.ls-layer .button-text2 a { font-size:11px; padding:0px 13px; line-height:30px; }
+		.ls-layer .button-text a { font-size:10px; padding:0px 10px; line-height:24px; }
+		
+		input[type=text], input[type=email], input[type=password], input.text, textarea { width:92.4%; }
+		
+		th { font-size:12px; padding:10px 5px; }
+		td { padding:10px 5px; font-size:11px; }
+
+		
+		/*----*****---- << Secondary >> ----*****----*/
+		#secondary .widget #searchform input[type="text"] { width:336px; }
+		#secondary .widget #searchform input[type="submit"] { padding:13px; }
+		
+		/*----*****---- << Contact >> ----*****----*/
+		#contact-form input[type="text"], #contact-form input[type="email"] { width:93%; }
+		#contact-form textarea { width:92.5%; }
+		#contact-form .column { margin-bottom:0px; }
+		
+		#map { height:280px; }
+		.fullwidth-map #map { height:300px; }
+		
+		.two-third #contact-form input[type="text"], .two-third #contact-form input[type="email"], .two-third #contact-form textarea { width:92.4%; }
+		.two-third #contact-form input[type="text"], .two-third #contact-form input[type="email"], #contact-form input[type="text"], #contact-form input[type="email"] { margin-bottom:10px; }
+		.two-third #contact-form input[type="email"], #contact-form input[type="email"] { margin-top:0px; }
+	
+	}
+	
+	/*----*****---- << Mobile >> ----*****----*/	
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		.mobile-menu { display:block; }
+		#main-menu ul { display:none; }
+		
+		.container { width:200px; }
+		.boxed .wrapper { width:100%; }
+		
+		/*----*****---- << Header >> ----*****----*/		
+		#top-bar .social-icons { float:left; width:100%; text-align:center; }
+		#top-bar .phone-no { width:89%; text-align:center; margin-bottom:10px; background-position:14% 4px; }
+		
+		#logo { width:100%; text-align:center; margin-top:20px; margin-bottom:10px; }
+		#logo img { max-width:100%; }
+		#logo h2 a { font-size:18px; }
+		
+		#main-menu { float:left; width:100%; margin-bottom:5px; }
+		
+		/*----*****---- << Headings >> ----*****----*/		
+		.border-title h2 { font-size:16px; }
+		
+		/*----*****---- << Columns >> ----*****----*/
+		.column { margin-right:0px; }	
+		.one-fourth, .one-half, .three-fourth, .one-third, .two-third, .one-fifth, .four-fifth, .three-fifth, .two-fifth, .one-sixth, .two-sixth, .three-sixth, .four-sixth, .five-sixth { width:100%; margin-bottom:20px; }		
+		
+		.pricing-table.no-space .one-fourth, .pricing-table.no-space .one-half, .pricing-table.no-space .three-fourth, .pricing-table.no-space .one-third, .pricing-table.no-space .two-third, .pricing-table.no-space .one-fifth, .pricing-table.no-space .four-fifth, .pricing-table.no-space .three-fifth, .pricing-table.no-space .two-fifth, .pricing-table.no-space .one-sixth, .pricing-table.no-space .two-sixth, .pricing-table.no-space .three-sixth, .pricing-table.no-space .four-sixth, .pricing-table.no-space .five-sixth { width:95%; }
+		
+		/*----*****---- << Main >> ----*****----*/		
+		#primary { width:100%; }
+		#primary.content-full-width { width:100%; }
+		
+		#secondary { width:100%; margin-left:0px; margin-right:0px; }
+		
+		/*----*****---- << Home >> ----*****----*/
+		.ico-content.type2 { width:75%; }
+		.ico-content.type3 { width:65%; }
+		
+		.intro-text.type1 h4 span.highlight { background:none; color:#333334; }
+		.intro-text.type2, .intro-text.type3, .intro-text.type4 { text-align:center; padding-top:20px; padding-bottom:20px; }
+		.intro-text.type2 .column, .intro-text.type3 .column, .intro-text.type4 .column { margin-bottom:0px; }	
+		.intro-text.type2 h4, .intro-text.type3 h4, .intro-text.type4 h4 { font-size:16px; }	
+		.intro-text.type2 a, .intro-text.type4 a, .intro-text.type3 a { float:none; }
+		
+		.intro-text.type1 h4 { line-height:34px; }
+		.intro-text.type1 h6 { background-image:url(images/introtext-border-top.png); }
+		.intro-text.type1 h6 { font-size:13px; }
+		
+		/*----*****---- << Breadcrumb >> ----*****----*/
+		.breadcrumb-section { padding:15px 0px 5px; }	
+		.breadcrumb { width:100%; padding:0px; text-align:center; }
+		
+		.breadcrumb a, .breadcrumb span, .breadcrumb h1 { float:none; display:inline-block; } 
+		
+		.breadcrumb span { margin:3px 5px 0px; }
+		.breadcrumb a { line-height:22px; }
+		.breadcrumb h1 { font-size:14px; }
+		
+		.main-phone-no { margin-left:15px; float:left; }
+		.main-phone-no p { font-size:18px; }
+		.main-phone-no p a { font-size:14px; }
+		
+		/*----*****---- << Side Navigation >> ----*****----*/
+		.side-nav-container	{ margin-bottom:20px; }		
+		.side-nav-container ul li a { font-size:11px; }
+		
+		/*----*****---- << Testimonials >> ----*****----*/
+		.testimonial .author { width:100%; text-align:center; background:none; height:auto; padding:0px; margin-bottom:10px; }
+		.testimonial .author img { width:95px; height:95px; border:10px solid #e5e5e5; }
+		.testimonial blockquote { padding-left:40px; width:67.5%; margin:130px 0px 0px; clear:both; }
+		.testimonial blockquote:before { left:10px; top:15px; }
+		
+		/*----*****---- << Team >> ----*****----*/
+		.team .image { height:135px; }
+		
+		/*----*****---- << 404 >> ----*****----*/
+		.error-info h2 span.error { font-size:96px; }
+		.error-info h2 span { font-size:30px; }
+		.error-info h2 { font-size:20px; }
+		.error-info h3 { font-size:16px; }
+		
+		#searchform input[type="text"] { width:108px; }
+		
+		/*----*****---- << Partner Carousel >> ----*****----*/
+		.partner-carousel-wrapper { margin-top:10px; }
+		.partner-carousel-wrapper .carousel-arrows { top:-48px; }
+		#primary .partner-carousel li img { max-width:90%; }
+		
+		/*----*****---- << Portfolio >> ----*****----*/
+		.carousel-arrows { top:-40px; }
+		
+		.portfolio-carousel-wrapper .portfolio.three-column { width:188px; }
+		.portfolio-carousel-wrapper .portfolio.three-column .portfolio-thumb, .portfolio-carousel-wrapper .portfolio.three-column .portfolio-thumb img { height:127px; }
+		
+		.portfolio-carousel-wrapper .portfolio.three-column .image-overlay a { top:25%; }
+		.portfolio-carousel-wrapper .portfolio.three-column:hover a.zoom { left:15%; }
+		.portfolio-carousel-wrapper .portfolio.three-column:hover .image-overlay a.link { right:15%; }
+		
+		.portfolio.three-column, .portfolio.two-column, .portfolio.four-column, .portfolio.three-column-with-sidebar, .portfolio.two-column-with-sidebar, .portfolio.four-column-with-sidebar { width:200px; margin:6px 0px; }
+		.portfolio.three-column .portfolio-thumb, .portfolio.three-column .portfolio-thumb img, .portfolio.two-column .portfolio-thumb, .portfolio.two-column .portfolio-thumb img, .portfolio.four-column .portfolio-thumb, .portfolio.four-column .portfolio-thumb img, .portfolio.three-column-with-sidebar .portfolio-thumb, .portfolio.three-column-with-sidebar .portfolio-thumb img, .portfolio.two-column-with-sidebar .portfolio-thumb, .portfolio.two-column-with-sidebar .portfolio-thumb img, .portfolio.four-column-with-sidebar .portfolio-thumb, .portfolio.four-column-with-sidebar .portfolio-thumb img, .portfolio.one-column .portfolio-thumb, .portfolio.one-column-with-sidebar .portfolio-thumb, .portfolio.one-column .portfolio-thumb, .portfolio.one-column .portfolio-thumb img, .portfolio.one-column-with-sidebar .portfolio-thumb, .portfolio.one-column-with-sidebar .portfolio-thumb img { width:100%; height:135px; }
+		
+		
+		.portfolio.four-column .image-overlay a, .portfolio.three-column .image-overlay a, .portfolio.two-column-with-sidebar .image-overlay a, .portfolio.one-column-with-sidebar .image-overlay a, .portfolio.two-column .image-overlay a, .portfolio.one-column .image-overlay a, .portfolio.three-column-with-sidebar .image-overlay a, .portfolio.four-column-with-sidebar .image-overlay a { top:28%; }
+		.portfolio.four-column:hover a.zoom, .portfolio.three-column:hover a.zoom, .portfolio.two-column-with-sidebar:hover a.zoom, .portfolio.one-column-with-sidebar:hover a.zoom, .portfolio.two-column:hover a.zoom, .portfolio.one-column:hover a.zoom, .portfolio.three-column-with-sidebar:hover a.zoom, .portfolio.four-column-with-sidebar:hover a.zoom { left:16%; }
+		.portfolio.four-column:hover .image-overlay a.link, .portfolio.three-column:hover .image-overlay a.link, .portfolio.two-column-with-sidebar:hover a.link, .portfolio.one-column-with-sidebar:hover a.link, .portfolio.two-column:hover .image-overlay a.link, .portfolio.one-column:hover .image-overlay a.link, .portfolio.three-column-with-sidebar:hover a.link, .portfolio.four-column-with-sidebar:hover a.link  { right:16%; }
+		
+		.portfolio.one-column .portfolio-detail, .portfolio.one-column-with-sidebar .portfolio-detail { width:100%; }
+		
+		.pagination ul li.active-page, .pagination ul li { margin-bottom:10px; } 
+		
+		.portfolio-slider-container .bx-controls-direction a { top:24%; }
+		
+		/*----*****---- << Products >> ----*****----*/
+		.product-carousel-wrapper ul.products li h4 { font-size:16px; }
+		.product-carousel-wrapper ul.products li .price { font-size:13px; margin-left:10px; }
+		.product-carousel-wrapper ul.products li .details a { font-size:11px; padding:11px 8px; }
+		
+		.product-carousel-wrapper { margin-top:10px; }
+		.product-carousel-wrapper .carousel-arrows { top:-48px; }
+		.product-carousel-wrapper ul.products li .product-thumb { height:123px; }
+		
+		ul.products li { margin:0px 0px 10px; width:100%; }
+		ul.products li .product-thumb { height:auto; }
+		ul.products li .product-thumb:hover .product-overlay a { top:28%; }
+		ul.products li .price { font-size:14px; margin-left:10px; }
+		ul.products li .details a { font-size:11px; padding:11px 8px; }
+		
+		ul.products.type2 li .product-thumb { width:100%; margin-right:0px; }
+		ul.products.type2 li .details { width:100%; }
+		
+		.product .images { width:100%; margin-right:0px; }
+		.product .images .thumbnails a { height:auto; margin-right:5px; width:63px; }
+		.product .images .thumbnails .product-arrows a { top:0px; }	
+		
+		.summary { width:100%; margin:20px 0px 0px; }	
+		.product .summary .cart button { margin-top:10px; float:none; }
+		
+		/*----*****---- << Blog >> ----*****----*/
+		.blog-entry .entry-thumb-meta { width:100% !important; }
+		.blog-entry .entry-details { width:100% !important; }
+		
+		.blog-entry .entry-thumb-meta .entry-meta { padding:0px 5px; }
+		
+		ul.commentlist li .comment-details { width:80%; }
+		ul.commentlist li .comment-author { float:left; position:relative; margin:10px; z-index:1; }
+		ul.commentlist li, ul.commentlist li .comment { padding:0px; }
+		ul.commentlist li .author-name { clear:both; }
+		ul.commentlist li ul.children { margin-left:20px; width:88%; }
+		
+		#respond input[type="text"], #respond input[type="email"], #respond textarea { width:83.6%; }
+		#respond .column { margin-bottom:0px; }
+		
+		/*----*****---- << Shortcodes >> ----*****----*/
+		.button.large { padding-left:40px; padding-right:40px; }
+		
+		ul.tabs-frame { margin-left:0px; }
+		ul.tabs-frame li { margin-right:0px; }
+		
+		ul.tabs-vertical-frame { width:95%; }
+		.tabs-vertical-frame-content { width:87%; }
+		
+		ul.tabs-frame li { width:100%; }
+		ul.tabs-frame li a { width:91%; }
+		.tabs-frame-content { width:89%; }
+		ul.tabs-frame li a { padding:0px 10px; font-size:12px; margin-bottom:5px; }
+		ul.tabs-frame li a, ul.tabs-frame li a.current { border-bottom:1px solid #d9d9d9; }
+		
+		.ls-layer .button-text2 a { font-size:8px; padding:0px 9px; line-height:18px; }
+		.ls-layer .button-text a { font-size:7px; padding:0px 10px; line-height:20px; }
+		
+		input[type=text], input[type=email], input[type=password], input.text, textarea { width:83.8%; }
+		
+		th, td { font-size:7px; padding:8px 0px; }
+		
+		/*----*****---- << Secondary >> ----*****----*/
+		#secondary .widget #searchform input[type="text"] { width:116px; }
+		#secondary .widget #searchform input[type="submit"] { padding:13px; }
+		
+		/*----*****---- << Contact >> ----*****----*/
+		#contact-form input[type="text"], #contact-form input[type="email"] { width:93%; }
+		#contact-form textarea { width:92.5%; }
+		#contact-form .column { margin-bottom:0px; }
+		
+		.two-third #contact-form input[type="text"], .two-third #contact-form input[type="email"], .two-third #contact-form textarea { width:92.4%; }
+		
+		/*----*****---- << Contact >> ----*****----*/
+		#footer .widget .tweet_list li { width:86%; }
+		#map { height:180px; }
+		.fullwidth-map #map { height:200px; }
+		.contact-details { padding-left:20px; padding-right:20px; }
+		#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea, .two-third #contact-form input[type="text"], .two-third #contact-form input[type="email"], .two-third #contact-form textarea { width:84%; }
+		#contact-form input[type="text"], #contact-form input[type="email"], .two-third #contact-form input[type="text"], .two-third #contact-form input[type="email"] { margin-top:10px; margin-bottom:10px; }
+		.two-third #contact-form input[type="email"], #contact-form input[type="email"] { margin-top:0px; }	
+	}
+	
