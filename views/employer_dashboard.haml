@@ -1,0 +1,119 @@
+!!!  
+%html  
+  %head  
+    %title #{@title}
+    %link(rel="stylesheet" href="css/style.css")
+    %link(rel="stylesheet" href="css/shortcodes.css")
+    %link(rel="stylesheet" href="skins/pink/style.css")
+    %link(rel="stylesheet" href="css/responsive.css")
+    %link(rel="stylesheet" href="css/font-awesome.min.css")
+    %link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic")
+    %link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arvo:400,700")
+    
+  %body  
+    #wrapper  
+      %header#header  
+        %div{:class => 'container'}
+          #logo
+            %h2
+              %a(href="/")
+                %span
+                  She's
+                Hired
+          %nav#main-menu
+            %ul
+              %li
+                %a(href="/")
+                  Home
+              %li
+                %a(href="/#talent")
+                  For Talent
+              %li
+                %a(href="/#employers")
+                  For Employers
+              %li
+                %a(href="/#register")
+                  Register
+                  
+      %div#main
+        %div{:class => 'container'}
+          #content
+            %div{:class => 'titled-box green'}
+              %h6{:class => 'titled-box-title'}
+                Registration Complete!
+              %div{:class => 'titled-box-content'}
+                Thanks for registering. We will contact you within 72 hours to educate you how the hiring process works here at She's Hired.
+          
+        
+  
+      %div#footer  
+        %div{:class => 'container'}
+          %div{:class => 'column one-fourth'}
+            %aside{:class => 'widget'}
+              %h3{:class => 'widgettitle'}
+                %span
+                  Menu
+              %ul
+                %li
+                  %a(href="/")
+                    Home
+                %li
+                  %a(href="#talent")
+                    For Talent
+                %li
+                  %a(href="#employers")
+                    For Employers
+                %li
+                  %a(href="#contact")
+                    Contact
+                    
+          %div{:class => 'column one-fourth'}
+            %aside{:class => 'widget tweetbox'}
+              %h3{:class => 'widgettitle'}
+                %span
+                  Twitter Feed
+              %p
+                %span
+                  No Recent Activity
+
+
+          %div{:class => 'column one-fourth'}
+            %aside{:class => 'widget'}
+              %h3{:class => 'widgettitle'}
+                %span
+                  Blog
+              %p
+                %span
+                  No Recent Posts
+                                    
+                  
+          %div{:class => 'column one-fourth last'}
+            %aside{:class => 'widget'}
+              %h3{:class => 'widgettitle'}
+                %span
+                  Contact Info
+              %p
+                %span{:class => 'icon-phone'}
+                  Phone #: 
+              %p
+                %span{:class => 'icon-envelope-alt'}
+                  Email: hello@sheshired.com
+                  %a(href="mailto:hello@sheshired.com")
+              %p
+                %span{:class => 'icon-globe'}
+                  Website: http://sheshired.com
+                  
+
+
+          %script{:type => "text/javascript", :src  => "http://code.jquery.com/jquery.js"}
+          %script{:type => "text/javascript", :src  => "http://underscorejs.org/underscore.js"}
+          %script{:type => "text/javascript", :src  => "http://backbonejs.org/backbone.js"}
+          %script{:type => "text/javascript", :src  => "/js/main.js"}
+          %script{:type => "text/javascript", :src  => "/js/models.js"}
+          %script{:type => "text/javascript", :src  => "/js/collections.js"}
+          %script{:type => "text/javascript", :src  => "/js/views.js"}
+          %script{:type => "text/javascript", :src  => "/js/router.js"}
+          %script{:type => "text/javascript", :src  => "/js/custom.js"}
+          %script{:type=>"text/javascript"}
+            new App.Router;
+            Backbone.history.start();          

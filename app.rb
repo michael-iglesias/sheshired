@@ -51,6 +51,16 @@ class Position
 	belongs_to :user
 end
 
+class Employer
+	include DataMapper::Resource
+	property :id, Serial
+	property :employer_name, Text, :required => true
+	property :employer_location, Text, :required => true
+	proptery :employer_contact_name, Text, :required => true
+	property :employer_contact_email, Text, :required => true
+	property :employer_contact_phone, Text, :required => true
+end
+
 DataMapper.finalize.auto_upgrade!
 
 
@@ -88,6 +98,23 @@ get '/register' do
 	haml :register
 end
 
+post '/register/employer' do
+	e = Employer.new
+	e.employer_name = params[:employer_name]
+	e.employer_location = params[:employer_location]
+	e.employer_contact_name = params[:employer_contact_name]
+	e.employer_contact_email = params[:employer_contact_email]
+	e.employer_contact_phone = params[:employer_contact_phone]
+	
+	e.save
+	
+	# Set session data and redirect to Employer Dashboard
+	session[:employer_id] = e.id
+	session[:user_type] = 'employer'
+	
+	redirect '/employer'
+		
+end
 
 
 get '/logout' do
@@ -99,11 +126,21 @@ end
 # Talent user routes
 # ************************************************
 get '/user' do
-	
-	"#{session[:user_id]}"
+	@title = "She's Hired! Your Dashboard"
+	haml :talent_dashboard
 	
 end
 
+
+
+
+# ************************************************
+# Employer Routes
+# ************************************************
+get '/employer' do
+	@title = "She's Hired! Your Dashboard"
+	haml :employer_dashboard
+end
 
 
 
@@ -189,7 +226,7 @@ ENV['LINKEDIN_CONSUMER_SECRET'] = "0VrCxY3XWvJw1Eiy"
 			session[:user_id] = u.id
 			session[:user_type] = 'talent'
 			
-			redirect '/'
+			redirect '/user'
 		end
 		
 	end
